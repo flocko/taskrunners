@@ -82,7 +82,7 @@ var skin = {
  * Main tasks
  * ---------------------------
  */
-gulp.task('dev', ['browser-sync', 'watch:dev', 'compass:dev']);
+gulp.task('default', ['browser-sync', 'watch:dev', 'compass:dev']);
 gulp.task('start', ['copy:dev']);
 
 /**
