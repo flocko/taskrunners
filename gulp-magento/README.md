@@ -33,7 +33,7 @@ open a terminal on your host-vm and navigate to ```gulpfile.js```in your public 
 Makes a 1:1 copy of the content from your fallback theme (rwd) to the theme name you specified in your gulfile.js.
 Since you would probably use magento's fallback system and only start with ```scss/styles.scss``` and ```scss/_var.scss``` for production this task is for demonstration purpose only (needs a bunch of deletes after copy).
 
-### gulp dev
+### gulp
     gulp
 Connects browserSync to your development server and watches for file changes. Magento current rwd theme uses compass and ruby-sass to compile your stylesheets so the injections won't be instant but take 2-3 seconds.
 BrowserSync provides you with internal and external url's for connecting multiple devices to your server and reload them as you make changes in your code.
