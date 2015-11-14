@@ -34,6 +34,10 @@ var theme = 'devel';
 var theme_fb = 'rwd';
 
 // edit config from vm
+// server.url = the ip to your vagrant box so browserSync can create a proxy
+// for different devices connected to your dev server.
+// server.path = if your magento installation is in a subdirectory of your vm
+// leave this empty if its in your root directory.
 var server = {
   url : '192.168.33.10',
   path: 'magento/'
