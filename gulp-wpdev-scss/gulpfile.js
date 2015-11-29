@@ -38,9 +38,9 @@ var theme = {
 }
 
 var options = {
-  pcss  : {
-    files : 'pcss/**/*.pcss',
-    dest  : 'pcss/'
+  sass  : {
+    files : 'scss/**/*.scss',
+    dest  : 'scss/'
   },
   img   : {
     files : 'img/**/*.*',
@@ -61,6 +61,6 @@ var options = {
 
 var vendor = {
   mdi : {
-    css : 'css/vendor/mdi'
+    sass : 'sass/vendor/mdi'
   }
 }
